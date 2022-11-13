@@ -1,0 +1,33 @@
+body {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.header ul li a:link,
+.header ul li a:visited,
+.header ul li a:hover,
+.header ul li a:active {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+}
