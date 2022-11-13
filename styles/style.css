@@ -1,5 +1,8 @@
 body {
     background-color: #1F2937;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .header {
@@ -25,6 +28,43 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+}
+
+.information {
+    background-color: #F9FAF8;
+    margin: 0;
+}
+
+.information h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin: 0;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote p {
+    margin: 0;
 }
 
 .footer {
