@@ -42,6 +42,54 @@ body {
     font-size: 24px;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0;
+}
+
+.hero-container {
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 15px;
+    padding: 10px 25px;
+    border: none;
+    font-weight: bold;
+}
+
+.hero-image {
+    flex: 1;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .information {
     background-color: #F9FAF8;
     margin: 0;
